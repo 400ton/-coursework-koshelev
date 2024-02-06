@@ -1,5 +1,4 @@
 import pytest
-import os
 import json
 
 from function import load_file, sort_operations, filter_operations, formatter_date, encryption

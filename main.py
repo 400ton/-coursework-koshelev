@@ -21,5 +21,3 @@ def main():
               f'{encryption(operation["from"], "from")} -> {encryption(operation["to"], "to")}'
               f' -> {operation['operationAmount']['amount']} {operation['operationAmount']["currency"]["name"]}\n')
 
-if __name__ == '__main__':
-    main()
